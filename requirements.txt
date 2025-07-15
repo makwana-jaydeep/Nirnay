@@ -1,0 +1,10 @@
+tensorflow
+transformers
+torch
+peft
+bitsandbytes
+torch
+datasets
+huggingface_hub
+gradio
+
