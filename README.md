@@ -17,22 +17,7 @@ This application uses a fine-tuned, quantized language model and is deployed usi
 
 ## Project Structure
 
-Nirnay/
-├── app.py                 # Gradio app interface
-├── utils.py               # Model loading and prompt generation
-├── requirements.txt       # Python dependencies
-├── LICENSE                # MIT License
-├── .gitignore             # Files/folders to ignore in version control
-├── data/
-│   ├── career_data.csv
-│   ├── cleaned_data.csv
-│   └── fine_tune_data.jsonl
-├── notebooks/
-│   ├── cleaning.ipynb
-│   └── modeling.ipynb
-├── quantized_model/       # (excluded from Git) contains model weights
-├── assets/                # Screenshots and supporting images 
-└── README.md              # Project description and setup guide
+<pre> Nirnay/ ├── app.py # Gradio app interface ├── utils.py # Model loading and prompt generation ├── requirements.txt # Python dependencies ├── LICENSE # MIT License ├── .gitignore # Files/folders to ignore in version control ├── README.md # Project description and setup guide ├── data/ │ ├── career_data.csv │ ├── cleaned_data.csv │ └── fine_tune_data.jsonl ├── notebooks/ │ ├── cleaning.ipynb │ └── modeling.ipynb ├── quantized_model/ # (excluded from Git) contains model weights └── assets/ # Screenshots and supporting images (optional) </pre>
 
 
 
